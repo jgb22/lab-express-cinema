@@ -1,0 +1,18 @@
+<div>
+    
+    <head>
+    <title>{{ movie.title }}</title>
+    <!-- Add your CSS or stylesheets here -->
+</head>
+<body>
+    <h1>{{ movie.title }}</h1>
+    <p>Directed by: {{ movie.director }}</p>
+    <p>Stars: {{ movie.stars.join(', ') }}</p>
+    <img src="{{ movie.image }}" alt="{{ movie.title }}">
+    <p>Description: {{ movie.description }}</p>
+    <p>Showtimes: {{ movie.showtimes.join(', ') }}</p>
+    <!-- Add more movie details as needed -->
+</body>
+</div>
+
+
